@@ -19,6 +19,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
   'GET /' : 'UserController.teste',
+  'POST /orders/getByIds' : 'OrderController.getByIds',
 
 
   /***************************************************************************
